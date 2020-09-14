@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.link-logo {
+    width: 155px;
+
+}
+
+.menu {
+
+    font-size: 16px;
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-content: center;
+    padding-left: 0px;
+}
+
+.blog {
+    margin: 10px;
+    color: #4a4a4a;
+}
+
+.contacto {
+    margin: 10px;
+    color: #4a4a4a;
+}
+
+.tittle {
+    background-color: #3CDBC0;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
+    width: auto;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    text-align: center;
+    flex-direction: column;
+}
+
+@media all and (min-width: 768px) {
+    .header {
